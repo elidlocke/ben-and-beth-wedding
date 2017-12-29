@@ -16,7 +16,7 @@ a {
     color: #708053; }
 
 .text-primary {
-  color: #A7CE30 !important; }
+  color: #fd996b !important; }
 
 h1,
 h2,
@@ -62,8 +62,8 @@ p.subheading {
   padding: 20px 40px; }
 
 .btn-primary {
-  background-color: #A7CE30;
-  border-color: #A7CE30;
+  background-color: #fd996b;
+  border-color: #fd996b;
   outline: none; }
   .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
     background-color: #8FB318 !important;
@@ -75,11 +75,11 @@ p.subheading {
 .btn-select {
   background-color: Transparent;
   border: 0;
-  color: #A7CE30; }
+  color: #fd996b; }
   .btn-select:active, .btn-select:focus, .btn-select:hover {
     background-color: Transparent;
-    border-color: #A7CE30;
-    color: #A7CE30; }
+    border-color: #fd996b;
+    color: #fd996b; }
   .btn-select:active, .btn-select:focus {
     box-shadow: 0 0 0 0.2rem rgba(34, 37, 31, 0.1) !important; }
 
@@ -89,16 +89,16 @@ p.subheading {
   color: #868e95; }
   .btn-deselect:active, .btn-deselect:focus, .btn-deselect:hover {
     background-color: Transparent;
-    color: #A7CE30; }
+    color: #fd996b; }
   .btn-deselect:active, .btn-deselect:focus {
     box-shadow: 0 0 0 0.2rem rgba(34, 37, 31, 0.1) !important; }
 
 ::-moz-selection {
-  background: #A7CE30;
+  background: #fd996b;
   text-shadow: none; }
 
 ::selection {
-  background: #A7CE30;
+  background: #fd996b;
   text-shadow: none; }
 
 img::selection {
@@ -108,7 +108,7 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #A7CE30; }
+  -webkit-tap-highlight-color: #fd996b; }
 
 #mainNav {
   background-color: #222; }
@@ -119,10 +119,10 @@ body {
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: #A7CE30;
+    background-color: #fd996b;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   #mainNav .navbar-brand {
-    color: #A7CE30;
+    color: #fd996b;
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #8FB318; }
@@ -134,7 +134,7 @@ body {
     color: white;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-      color: #A7CE30; }
+      color: #fd996b; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -572,7 +572,7 @@ section#contact {
     section#contact textarea.form-control {
       height: 248px; }
   section#contact .form-control:focus {
-    border-color: #A7CE30;
+    border-color: #fd996b;
     box-shadow: none; }
   section#contact ::-webkit-input-placeholder {
     font-weight: 700;
