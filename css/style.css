@@ -13,7 +13,7 @@ p {
 a {
   color: #fd996b; }
   a:hover {
-    color: #feb897; }
+    color: #fd996b; }
 
 .text-primary {
   color: #fd996b !important; }
@@ -496,7 +496,7 @@ img#camp-overview{
 
 .thanks{
   text-align: center;
-  color: #feb897;
+  color: #fd996b;
   padding: 50px;
 }
 
