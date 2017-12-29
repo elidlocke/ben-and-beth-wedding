@@ -81,7 +81,7 @@ p.subheading {
     border-color: #A7CE30;
     color: #A7CE30; }
   .btn-maybe:active, .btn-maybe:focus {
-    box-shadow: 0 0 0 0.2rem rgba(167, 206, 48, 0.1) !important; }
+    box-shadow: 0 0 0 0.2rem rgba(34, 37, 31, 0.1) !important; }
 
 .btn-select {
   background-color: Transparent;
@@ -92,7 +92,7 @@ p.subheading {
     border-color: #A7CE30;
     color: #A7CE30; }
   .btn-select:active, .btn-select:focus {
-    box-shadow: 0 0 0 0.2rem rgba(167, 206, 48, 0.1) !important; }
+    box-shadow: 0 0 0 0.2rem rgba(34, 37, 31, 0.1) !important; }
 
 .btn-deselect {
   background-color: Transparent;
@@ -103,7 +103,7 @@ p.subheading {
     border-color: #A7CE30;
     color: #A7CE30; }
   .btn-deselect:active, .btn-deselect:focus {
-    box-shadow: 0 0 0 0.2rem rgba(167, 206, 48, 0.1) !important; }
+    box-shadow: 0 0 0 0.2rem rgba(34, 37, 31, 0.1) !important; }
 
 ::-moz-selection {
   background: #A7CE30;
