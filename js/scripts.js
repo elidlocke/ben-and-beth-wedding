@@ -51,8 +51,8 @@ var submitted = false;
 
   //Show and Hide Form Fields
   $("#yes").click(function(e) {
-    $("#yes").removeClass("btn-maybe");
-    $("#no").removeClass("btn-maybe");
+    $("#yes").removeClass("btn-default");
+    $("#no").removeClass("btn-default");
     $("#yes").removeClass("btn-deselect");
     $("#yes").addClass("btn-select");
     $("#no").addClass("btn-deselect");
@@ -64,8 +64,8 @@ var submitted = false;
   });
   //Show and Hide Form Fields
   $("#no").click(function(e) {
-    $("#no").removeClass("btn-maybe");
-    $("#yes").removeClass("btn-maybe");
+    $("#no").removeClass("btn-default");
+    $("#yes").removeClass("btn-default");
     $("#no").removeClass("btn-deselect");
     $("#no").addClass("btn-select");
     $("#yes").addClass("btn-deselect");
@@ -79,6 +79,8 @@ var submitted = false;
   $( "#rsvp-submit" ).click(function(e) {
     $(".rsvp-form").addClass("hide");
     $(".thanks").removeClass("hide");
+    $(".make-it").addClass("hide");
+    
   });
 })(jQuery); // End of use strict
 

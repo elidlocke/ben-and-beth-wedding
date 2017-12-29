@@ -72,20 +72,9 @@ p.subheading {
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(167, 206, 48, 0.3) !important; }
 
-.btn-maybe {
-  background-color: Transparent;
-  border: 1px solid #fff;
-  color: #fff; }
-  .btn-maybe:active, .btn-maybe:focus, .btn-maybe:hover {
-    background-color: Transparent;
-    border-color: #A7CE30;
-    color: #A7CE30; }
-  .btn-maybe:active, .btn-maybe:focus {
-    box-shadow: 0 0 0 0.2rem rgba(34, 37, 31, 0.1) !important; }
-
 .btn-select {
   background-color: Transparent;
-  border: 1px solid #A7CE30;
+  border: 0;
   color: #A7CE30; }
   .btn-select:active, .btn-select:focus, .btn-select:hover {
     background-color: Transparent;
@@ -96,11 +85,10 @@ p.subheading {
 
 .btn-deselect {
   background-color: Transparent;
-  border: 1px solid #868e95;
+  border: 0;
   color: #868e95; }
   .btn-deselect:active, .btn-deselect:focus, .btn-deselect:hover {
     background-color: Transparent;
-    border-color: #A7CE30;
     color: #A7CE30; }
   .btn-deselect:active, .btn-deselect:focus {
     box-shadow: 0 0 0 0.2rem rgba(34, 37, 31, 0.1) !important; }
@@ -498,7 +486,7 @@ img#camp-overview{
 }
 
 .sleep-text{
-  height: 120px;
+  height: 150px;
 }
 
 .thanks{
