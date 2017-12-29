@@ -50,14 +50,30 @@ var submitted = false;
   })
 
   //Show and Hide Form Fields
-  $('input[id=accept]').change(function(e) {
+  $("#yes").click(function(e) {
+    $("#yes").removeClass("btn-maybe");
+    $("#no").removeClass("btn-maybe");
+    $("#yes").removeClass("btn-deselect");
+    $("#yes").addClass("btn-select");
+    $("#no").addClass("btn-deselect");
+    $("#no").removeClass("btn-select");
     $(".decline-form").addClass("hide");
     $(".accept-form").removeClass("hide");
+    $("#rsvp-submit").removeClass("hide");
+
   });
   //Show and Hide Form Fields
-  $('input[id=decline]').change(function(e) {
+  $("#no").click(function(e) {
+    $("#no").removeClass("btn-maybe");
+    $("#yes").removeClass("btn-maybe");
+    $("#no").removeClass("btn-deselect");
+    $("#no").addClass("btn-select");
+    $("#yes").addClass("btn-deselect");
+    $("#yes").removeClass("btn-select");
     $(".decline-form").removeClass("hide");
     $(".accept-form").addClass("hide");
+    $("#rsvp-submit").removeClass("hide");
+
   });
   //hide fields on form submit
   $( "#rsvp-submit" ).click(function(e) {
