@@ -11,9 +11,9 @@ p {
   line-height: 1.75; }
 
 a {
-  color: #708053; }
+  color: #fd996b; }
   a:hover {
-    color: #708053; }
+    color: #feb897; }
 
 .text-primary {
   color: #fd996b !important; }
@@ -61,13 +61,18 @@ p.subheading {
   font-size: 18px;
   padding: 20px 40px; }
 
+.btn-default:active, .btn-default:focus, .btn-default:hover {
+  background-color: #feb897 !important;
+  border-color: #feb897 !important;
+  color: white; }
+
 .btn-primary {
   background-color: #fd996b;
   border-color: #fd996b;
   outline: none; }
   .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    background-color: #8FB318 !important;
-    border-color: #8FB318 !important;
+    background-color: #feb897 !important;
+    border-color: #feb897 !important;
     color: white; }
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(167, 206, 48, 0.3) !important; }
@@ -125,7 +130,7 @@ body {
     color: #fd996b;
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #8FB318; }
+      color: #feb897; }
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;
@@ -491,7 +496,7 @@ img#camp-overview{
 
 .thanks{
   text-align: center;
-  color: #8FB318;
+  color: #feb897;
   padding: 50px;
 }
 
