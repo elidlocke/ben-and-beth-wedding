@@ -61,6 +61,11 @@ p.subheading {
   font-size: 18px;
   padding: 20px 40px; }
 
+.btn-default {
+  background-color: #fff;
+  border-color: #fff;
+  color: #222;
+  outline: none; }
 .btn-default:active, .btn-default:focus, .btn-default:hover {
   background-color: #feb897 !important;
   border-color: #feb897 !important;
@@ -168,7 +173,7 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg-blk1.jpg");
+  background-image: url("../img/header-bg-blk-green.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
